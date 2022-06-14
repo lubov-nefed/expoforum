@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><!--Кодировка-->    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--Совместимость со старым браузером видимо-->    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Точно не знаю как эо назвать Вьюпорт-->   
+    <link rel="stylesheet" href="style.css"><!--Подключение CSS--> 
+    <title>Expoforum</title><!--Название страницы-->
+</head>
+<body><!--Тело страницы-->
+    <main>
+        <div id="first-screen">
+            <img id="first-screen-bg-img" class="relative" src="images/jpg/first-screen-bg-img.jpg" alt="Место проведения форума. Фоновое изображение">
+            <header class="relative">
+                <a href="#"><img id="logo" class="absolute" src="images/svg/logo.svg" alt="Логотип Экспофорума"></a>                
+                <nav class="inline absolute">
+                    <ul>
+                        <li class="inline"><a href="#" class="white"> О комплексе</a></li>
+                        <li class="inline"><a href="#" class="white padding">О компании</a></li>
+                        <li class="inline"><a href="#" class="white padding">Новости</a></li>
+                        <li class="inline"><a href="#" class="white padding">Медиа-банк</a></li>
+                        <li class="inline"><a href="#" class="white">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div id="right-bar" class="absolute">
+                    <a href="#"><img src="images/svg/search-icon.svg" alt="Искать"></a>
+                    <a href="#"><img src="images/svg/lang-icon.svg" id="lang-icon" alt="Переключить язык"></a>               
+                    <p class="font-s16 inline absolute">
+                        <a href="#" class="white inline">
+                            
+                            English
+                        </a>
+                    </p>                                
+                </div>
+            </header>
+            <hr>
+            <div id="first-screen-title" class="inline absolute">
+                <h1 class="white">Экспофорум</h1>
+                <p class="white font-s24">конгрессно-выставочный центр <br> Санкт-Петербурга</p>
+                <a href="#" class="white arrow font-s16">О комплексе &nbsp;</a>
+            </div>
+            <div id="first-screen-block-wrapper" class="inline white absolute">
+                <div class="first-screen__block-item first-line blue-bg inline absolute">
+                    <h3 class="absolute">Календарь мероприятий<br><a href="#" class="white arrow">Подробнее &nbsp;</a></h3>
+                </div>
+                <div class="first-screen__block-item first-line aquamarine-bg inline absolute">
+                    <h3 class="absolute">Как добраться до Экспофорума<br><a href="#" class="white arrow">Подробнее &nbsp;</a></h3>
+                </div>
+                <div class="first-screen__block-item second-line yellow-bg inline absolute">
+                    <h3 class="absolute">Онлайн-заявка на организацию мероприятия<br><a href="#" class="white arrow">Подробнее &nbsp;</a></h3>
+                </div>
+                <div class="first-screen__block-item second-line red-bg inline absolute">
+                    <h3 class="absolute">План и инфраструктура комплекса<br><a href="#" class="white arrow">Подробнее &nbsp;</a></h3>
+                </div>
+            </div>            
+        </div>
+        <div id="menu" class="white relative">
+            <div class="menu item-1 inline absolute">
+            <h2>Организаторам</h2>
+            <nav class="menu-nav">
+                <ul>
+                    <li><a href="#" class="white">Документы организаторам</a></li>
+                    <li class="margin"><a href="#" class="white">Услуги организаторам</a></li>
+                    <li class="margin"><a href="#" class="white">Рестораны и кафе</a></li>
+                    <li class="margin"><a href="#" class="white">Выставочные площади</a></li>
+                    <li class="margin"><a href="#" class="white">Конгресс-центр</a></li>
+                    <li class="margin"><a href="#" class="white">Спорт-центр</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="menu item-2 inline absolute">
+            <h2>Экспонентам</h2>
+            <nav class="menu-nav">
+                <ul>
+                    <li><a href="#" class="white">Общие условия участия</a></li>
+                    <li class="margin"><a href="#" class="white">Услуги экспонентам</a></li>
+                    <li class="margin"><a href="#" class="white">Документы экспонентам</a></li>
+                    <li class="margin"><a href="#" class="white">Центр деловых контактов</a></li>
+                    <li class="margin"><a href="#" class="white">Забронировать гостиницу</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="menu item-3 inline absolute">
+            <h2>Посетителям</h2>
+            <nav class="menu-nav">
+                <ul>
+                    <li><a href="#" class="white">Сервисы</a></li>
+                    <li class="margin"><a href="#" class="white">Онлайн-регистрация на мероприятие</a></li>
+                    <li class="margin"><a href="#" class="white">Забронировать гостиницу</a></li>
+                    <li class="margin"><a href="#" class="white">Центр деловых контактов</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="menu item-4 inline absolute">
+            <h2>Прессе</h2>
+            <nav class="menu-nav">
+                <ul>
+                    <li><a href="#" class="white">Аккредитация</a></li>
+                    <li class="margin"><a href="#" class="white">Пресс-служба</a></li>
+                    <li class="margin"><a href="#" class="white">Правила аккредитации</a></li>
+                </ul>
+            </nav>
+        </div>
+        </div>
+        <div id="events" class="black relative">
+            <h2 class="inline absolute">Текущие и будущие мероприятия</h2>
+            <a href="#" class="black absolute arrow">Все мероприятия &nbsp;</a>
+            <div class="events-wrapper inline absolute">
+                <div class="event-1 event first-line inline">
+                    <a href="#"><img src="images/jpg/event-1.jpg" alt=""></a>                    
+                    <p class="font-s14">2 января 2020 г. – 7 января 2020 г.</p>
+                    <h3 class="font-s21"> <a href="#" class="red">ЭКСПО ЕЛКА</a></h3>
+                    <p class="font-s16">Парк интерактивных развлечений</p>
+                </div>
+                <div class="event-2 event first-line inline">
+                    <a href="#"><img src="images/jpg/event-2.jpg" alt=""></a>                    
+                    <p class="font-s14">5 февраля 2020 г. – 9 февраля 2020 г.</p>
+                    <h3 class="font-s21"><a href="#" class="red">Junwex Петербург</a></h3>
+                    <p class="font-s16">Выставка ювелирных изделий</p>
+                </div>
+                <div class="event-3 event first-line inline">
+                    <a href="#"><img src="images/jpg/event-3.jpg" alt=""></a>                    
+                    <p class="font-s14">7 февраля 2020 г. – 9 февраля 2020 г.</p>
+                    <h3 class="font-s21"><a href="#" class="red">Невский ларец</a></h3>
+                    <p class="font-s16">Выставка-ярмарка народных художественных<br>промыслов и ремесел</p>
+                </div>
+                <div class="event-4 event second-line inline">
+                    <a href="#"><img src="images/jpg/event-4.jpg" alt=""></a>                    
+                    <p class="font-s14">14 февраля 2020 г. – 23 февраля 2020 г.</p>
+                    <h3 class="font-s21"><a href="#" class="red">ПОНАЕХАЛИ!</a></h3>
+                    <p class="font-s16">Специализированная арт-ярмарка</p>
+                </div>
+                <div class="event-5 event second-line inline">
+                    <a href="#"><img src="images/jpg/event-5.jpg" alt=""></a>                    
+                    <p class="font-s14">18 февраля 2020 г. – 21 февраля 2020 г.</p>
+                    <h3 class="font-s21"><a href="#" class="red">VET.CAMP</a></h3>
+                    <p class="font-s16">Конференция для ветеринарных врачей</p>
+                </div>
+                <div class="event-6 event second-line inline">
+                    <a href="#"><img src="images/jpg/event-6.jpg" alt=""></a>                    
+                    <p class="font-s14">26 февраля 2020 г. – 28 февраля 2020 г.</p>
+                    <h3 class="font-s21"><a href="#" class="red">ExpoHoReCa</a></h3>
+                    <p class="font-s16">Специализированная выставка</p>
+                </div>
+            </div>
+        </div>
+        <div id="news" class="relative">
+            <a href="#"><img id="ad-1" class="absolute" src="images/jpg/ad-1.jpg" alt=""></a>
+            <a href="#"><img id="ad-2"  class="absolute" src="images/jpg/ad-2.jpg" alt=""></a>
+            <h2 class="inline black absolute">Новости</h2>
+            <a href="#" class="black absolute arrow font-s21">Все новости &nbsp;</a>
+        <div class="news-wrapper inline absolute">
+            <div class="inline">
+                <a href="#"><img src="images/jpg/news-1.jpg" alt=""></a>                
+                <p class="news-date red inline font-s16">4 января 2020 г.</p>
+                <h3><a href="#" class="black font-s21">Как объединилась реальность и виртуальность – LIKEE PARTY</a></h3>
+            </div>
+            <div class="news-item inline">
+                <a href="#"><img src="images/jpg/news-2.jpg" alt=""></a>                
+                <p class="news-date red inline font-s16">2 января 2020 г.</p>
+                <h3><a href="#" class="black font-s21">Как объединилась реальность и виртуальность – LIKEE PARTY</a></h3>
+            </div>
+            <div class="inline">
+                <a href="#"><img src="images/jpg/news-3.jpg" alt=""></a>                
+                <p class="news-date red inline font-s16">2 января 2020 г.</p>
+                <h3><a href="#" class="black font-s21">Как объединилась реальность и виртуальность – LIKEE PARTY</a></h3>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer class="white relative">
+        <nav class="company inline absolute">
+            <h2 class="font-s21">О компании</h2>
+            <ul>
+                <li><a href="#" class="grey font-s14">О нашей компании</a></li>                
+                <li><a href="#" class="grey font-s14">Вакансии</a></li> 
+                <li><a href="#" class="grey font-s14">Партнеры</a></li>
+                <li><a href="#" class="grey font-s14">Контакты</a></li>
+            </ul>
+        </nav>
+        <nav class="organizers inline absolute">
+            <h2 class="font-s21">Организаторам</h2>
+            <ul>
+                <li><a href="#" class="grey font-s14">Преимущества площадки</a></li>                
+                <li><a href="#" class="grey font-s14">Структура комплекса</a></li> 
+                <li><a href="#" class="grey font-s14">Онлайн-заявка на организацию</a></li>
+                <li><a href="#" class="grey font-s14">Документы организаторам</a></li>
+            </ul>
+        </nav>
+        <nav class="exponents inline absolute">
+            <h2 class="font-s21">Экспонентам</h2>
+            <ul>
+                <li><a href="#" class="grey font-s14">Общие условия участия</a></li>                
+                <li><a href="#" class="grey font-s14">Услуги экспонентам</a></li> 
+                <li><a href="#" class="grey font-s14">Документы экспонентам</a></li>
+                <li><a href="#" class="grey font-s14">Забронировать гостиницу</a></li>
+            </ul>
+        </nav>
+        <nav class="visitors inline absolute">
+            <h2 class="font-s21">Посетителям</h2>
+            <ul>
+                <li><a href="#" class="grey font-s14">Сервисы</a></li>                
+                <li><a href="#" class="grey font-s14">Онлайн-регистрация</a></li> 
+                <li><a href="#" class="grey font-s14">Забронировать гостиницу</a></li>
+                <li><a href="#" class="grey font-s14">Центр деловых контактов</a></li>
+            </ul>
+        </nav>
+        <nav class="press inline absolute">
+            <h2 class="font-s21">Прессе</h2>
+            <ul>
+                <li><a href="#" class="grey font-s14">Аккредитация</a></li>                
+                <li><a href="#" class="grey font-s14">Пресс-служба</a></li> 
+                <li><a href="#" class="grey font-s14">Правила аккредитации</a></li>
+            </ul>
+        </nav>
+        <div class="get-app inline absolute">
+            <h2 class="font-s21">Приложение</h2>
+            <img src="images/svg/appStore.svg" alt="Загрузите Expoforum в App Store">
+            <img src="images/svg/gPlay.svg" alt="Загрузите Expoforum в Google Play">
+        </div>
+        <div class="socials inline absolute">
+            <h2 class="font-s21">Мы в соц. сетях</h2>
+            <img id="yt" src="images/svg/yt-icon.svg" alt="">
+            <img id="vk" src="images/svg/vk-icon.svg" alt="">
+            <img id="fb" src="images/svg/fb-icon.svg" alt="">
+            <img id="inst" src="images/svg/instagram.svg" alt="">
+        </div>
+        <div class="subscribe inline absolute">      
+            <h2 class="font-s21">Подписка на новости</h2>
+            <p class="font-s14">Получайте все самые последние новости о мероприятиях в Экспофоруме.</p>
+            <form action="handler.php">
+                <input type="text" placeholder="Введите ваш e-mail">
+                <button><img src="images/svg/subscribe-btn-icon.svg" alt=""></button>
+            </form>
+        </div>
+    </footer>
+    <script src="script.js"></script><!--Подключение JavaScript-->
+</body>
+</html>

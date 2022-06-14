@@ -1,0 +1,362 @@
+/*Общие стили страницы*/
+    * {
+        box-sizing: border-box;
+        margin: 0;
+    }
+    body{
+        overflow-x: hidden;
+        font-family: 'circe';
+        font-weight: normal;
+    }
+    .absolute{
+        position: absolute;
+    }
+    .relative{
+        position: relative;
+    }
+    .inline{
+        display: inline-block;
+    }
+    ul{
+        list-style-type: none; /*лист айтемы без точки*/
+        padding: 0;
+    }
+    a{
+        text-decoration: none;
+    }
+    .white{
+        color:  #FFFFFF;
+    }
+    .black{
+        color: #2E373B;
+    }
+    .red{
+        color: #F6404F;        
+    }
+    .grey{
+        color: #E0E0E0;
+    }
+    .plumb{
+        font-family: "plumb-medium";
+        font-style: normal;
+    }
+    .font-s24{
+        font-size: 24px;
+    }
+    .font-s21{
+        font-size: 21px;
+    }
+    .font-s16{
+        font-size: 16px;
+    }
+    .font-s14{
+        font-size: 14px;
+    }
+    .font-s12{
+        font-size: 12px;
+    }
+    /*лист айтемы желтые и с подчеркиванием по наведению*/    
+/*Первый экран/FirstScreen*/
+    #first-screen{
+        height: 800px;       
+    }
+    #logo{
+        top: 33px;
+        left: 180px;
+    }
+    #first-screen-bg-img{
+        overflow-x: hidden;
+        position: absolute;
+        z-index: -1;
+        max-width: 100%;
+        height: 800px;                
+    }
+    header{
+        height: 90px;
+    }
+    header nav{
+        top: 35px;
+        left: 667px;
+    }
+    header li{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    header li .padding{
+        padding: 0 23px;
+    }
+    #right-bar{
+        top: 32px;
+        left: 1568px;
+    }
+    #right-bar p{
+        left: 120px;
+    }
+    #lang-icon{
+        padding: 0 11px 0 70px;
+    }
+    h1{
+        font-family: 'plumb-bold';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        text-transform: uppercase;        
+    }
+    #first-screen-title{
+        top: 184px;
+        left: 403px;
+    }
+    #first-screen-block-wrapper{
+        top: 304px;
+        left: 975px;
+        width: 540px;
+        height: 353px;        
+    }
+    .first-screen__block-item{
+        width: 255px;
+    }
+    .first-screen__block-item h3{
+        top: 30px;
+        left: 40px;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 27px;
+        letter-spacing: -0.01em;
+    }
+    .first-screen__block-item a{
+        font-family: 'circe';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .arrow:after{
+        content: '\A0\2192';
+        font-family: auto;
+    }
+    .first-screen__block-item.first-line{
+        height: 148px;
+    }
+    .first-screen__block-item.second-line{
+        height: 175px;
+    }
+    .blue-bg{
+        background: #2378FC;
+    }
+    .aquamarine-bg{
+        background: #30BCC9;
+        left: 285px;
+    }
+    .yellow-bg{
+        background: #FFC41E;
+        top: 178px;
+    }
+    .red-bg{
+        background: #F6404F;
+        top: 178px;
+        left: 285px;
+    }
+/*Меню/Menu*/
+    #menu{
+        height: 426px;
+        background-color: #2378FC;
+    }
+    #menu h2{
+        font-family: 'plumb-medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 39px;
+        letter-spacing: -0.01em;
+        margin-bottom: 30px;
+    }
+    .menu{
+        top: 75px;
+    }
+    .item-1{        
+        left: 403px;
+    }
+    .item-2{
+        left: 732px;
+    }
+    .item-3{
+        left: 1041px;
+    }
+    .item-4{
+        left: 1348px;
+    }
+    #menu li{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    #menu li.margin{
+        margin-top: 15px;
+    }    
+    #menu a:hover{
+        color: #FFC41E;
+        text-decoration: underline;
+    }
+/*События/Events*/
+    #events{
+        height: 984px;
+        background-color: #FFC41E;
+    }
+    .events-wrapper{
+        width: 1112px;
+        height: 730px;
+        top: 169px;
+        left: 405px;        
+    }
+    .event.first-line{
+        vertical-align: top;
+    }
+    .event.second-line{
+        padding-top: 40px;
+    }
+    .event-2, .event-5 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    #events h2{
+        top: 75px;
+        left: 405px;
+        font-family: "plumb-medium";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 39px;
+        letter-spacing: -0.01em;
+    }
+    #events a.arrow{
+        top: 84px;
+        left: 1309px;        
+        font-family: 'plumb-medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 27px;        
+        letter-spacing: -0.01em;
+        text-decoration: underline;
+    }
+
+
+/*Новости/News*/
+    #news{
+        height: 649px;
+        background-color: #FAF3E3;
+    }
+    #ad-1{
+        top: 75px;
+        left: 405px;
+    }
+    #ad-2{
+        top: 349px;
+        left: 405px;
+    }
+    #news h2{
+        top: 75px;
+        left: 975px;
+        font-size: 30px;
+        line-height: 39px;
+        font-family: 'plumb-medium';
+        font-style: normal;
+        font-weight: 500;
+    }
+    #news .arrow{
+        top: 81px;
+        left: 1360px;
+        text-decoration: underline;
+    }
+    .news-wrapper{
+        width: 520px;
+        height: 420px;
+        top: 144px;
+        left: 975px;
+    }
+    .news-wrapper img{
+        float: left;
+        margin-right: 30px;
+    }
+    .news-item{
+        margin: 30px 0;
+    }
+    .news-date {
+        margin-bottom: 14px;
+    }
+/*Подвал/Footer*/
+    footer{
+        height: 476px;
+        background-color: #30BCC9;        
+    }
+    footer .company{
+        top: 60px;
+        left: 405px;
+    }
+    footer .organizers{
+        top: 253px;
+        left: 405px;
+    }
+    footer .exponents{
+        top: 60px;
+        left: 690px;
+    }
+    footer .visitors{
+        top: 253px;
+        left: 690px;
+    }
+    footer .press{
+        top: 60px;
+        left: 975px;
+    }
+    footer .get-app{
+        top: 224px;
+        left: 975px;
+        width: 161px;
+    }
+    footer .socials{
+        top: 60px;
+        left: 1260px;
+    }
+    footer .subscribe{
+        top: 192px;
+        left: 1260px;
+        width: 255px;
+    }
+    #yt{
+        margin-top: 30px;
+        margin-right: 30px;
+    }
+    #vk{
+        margin-top: 30px;
+        margin-right: 30px;
+    } 
+    #fb{
+        margin-top: 30px;
+        margin-right: 30px;
+    }
+    #inst{
+        margin-top: 30px;        
+    }
+    footer > form::placeholder{
+        font-size: 12px;
+    }  
+/*Подключение шрифтов*/
+@font-face {
+	font-family: 'circe';
+	src: url('fonts/circe/circe.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/circe/circe.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/circe/circe.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/circe/circe.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/circe/circe.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/circe/circe.svg#circe') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {     
+    font-family: "plumb-bold";    
+    src: url("fonts/plumb-bold.woff") format("woff"); 
+    }
+@font-face {     
+   font-family: "plumb-medium";    
+    src: url("fonts/plumb-medium.woff") format("woff"); 
+    }
